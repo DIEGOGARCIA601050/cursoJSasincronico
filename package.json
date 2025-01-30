@@ -1,0 +1,24 @@
+{
+  "name": "cursojsasincronico",
+  "version": "1.0.0",
+  "description": "Del curso de js asincronico",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DIEGOGARCIA601050/cursoJSasincronico.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "asincronia"
+  ],
+  "author": "diego",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DIEGOGARCIA601050/cursoJSasincronico/issues"
+  },
+  "homepage": "https://github.com/DIEGOGARCIA601050/cursoJSasincronico#readme"
+}
