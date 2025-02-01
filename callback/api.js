@@ -1,6 +1,7 @@
-fetch('https://api.escuelajs.co/api/v1/products').then((response) => {
-  return response.json();
-}).then((data) => {
+function iniciar() {
+  fetch('https://api.escuelajs.co/api/v1/products').then((response) => {
+    return response.json();
+  }).then((data) => {
     const main = document.getElementById('products');
     if (Array.isArray(data)) {
       data.map((product) => {
@@ -22,3 +23,5 @@ fetch('https://api.escuelajs.co/api/v1/products').then((response) => {
         })
         }
       });
+}
+window.addEventListener('load', iniciar)
